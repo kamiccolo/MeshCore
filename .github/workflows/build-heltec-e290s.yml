@@ -1,13 +1,10 @@
-name: Build Companion Firmwares
+name: Build Heltec e290 firmwares
 
 permissions:
   contents: write
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - 'companion-*'
 
 jobs:
 
